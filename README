@@ -1,0 +1,7 @@
+Checks a trusted docker repository for OpenSSL Heartbeat vulnerability
+
+Usage:
+
+ ./check_di_heartbleed.py [docker-repository]
+
+Where docker repository is the name of a trusted repository on the Docker Index.
