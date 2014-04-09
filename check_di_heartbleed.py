@@ -121,8 +121,6 @@ def has_safe_distro(dockerfile):
                     return SafeEnum.FIXED
                 else:
                     return SafeEnum.SAFE
-    print distro
-    print tag
     return SafeEnum.UNKNOWN
 
 if __name__ == "__main__":
